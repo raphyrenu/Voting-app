@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voting DApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+  <h1>Voting DApp</h1>
+  <p id="account">Not connected</p>
+
+  <button onclick="connectMetaMask()">Connect MetaMask</button>
+
+  <ul id="candidates"></ul>
+
+  <input type="text" id="candidateInput" placeholder="Enter candidate name" />
+  <button onclick="addCandidate()">Add Candidate</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
